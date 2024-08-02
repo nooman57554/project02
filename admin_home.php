@@ -97,6 +97,7 @@ $conn->close();
     </a></li>
 
     <li><a href="master_timetable.php">master Table</a></li>
+    <li><a href="select_teachers.php">auto gen</a></li>
         </ul>
     </div>
 </body>
