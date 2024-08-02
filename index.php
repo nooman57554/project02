@@ -98,7 +98,9 @@
                 <?php if(isset($_GET['error_message'])) { echo $_GET['error_message']; } ?>
             </div>
             <button type="submit">Login</button>
+
         </form>
+        <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
     </div>
 
     <script>
