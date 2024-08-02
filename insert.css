@@ -1,0 +1,204 @@
+
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" stroke="%23333"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3m13 0l4-4m0 0l-4-4m4 4h-6"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 16px;
+            padding-right: 30px;
+        }
+
+        .message{
+            height: 10%;
+            color: green;
+            margin-bottom: 15px;
+            font-size: 20px;
+            background-color: #F5F5F5;
+        }
+
+        .error-message{
+            height: 10%;
+            color: red;
+            margin-bottom: 15px;
+            font-size: 15px;
+            background-color: #F5F5F5;
+        }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .batch-field,
+        .lab-assistant-field {
+            display: none;
+        }
+
+        .hide_confirm{
+            display: none;
+        }
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-label input[type="checkbox"] {
+            margin-left: 10px;
+        }
+
+
+
+
+
+/* Container for error messages */
+#error-messages {
+    display: none;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+#error-messages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#error-messages li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f5c6cb;
+    color: #721c24;
+    font-size: 16px;
+}
+
+#error-messages li:last-child {
+    border-bottom: none;
+}
+
+#error-messages .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #990a18;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#error-messages .close-btn:hover {
+    background-color: #d70f23;
+}
+
+
+/* Container for warnings */
+#warnings {
+    display: none;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #ebe65e;
+    border: 1px solid #baab40;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+#warnings ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#warnings li {
+    padding: 10px 0;
+    border-bottom: 1px solid #baab40;
+    color: #048308;
+    font-size: 16px;
+}
+
+#warnings li:last-child {
+    border-bottom: none;
+}
+
+#warnings .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #990a18;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#warnings .close-btn:hover {
+    background-color: #d70f23;
+}
+    
